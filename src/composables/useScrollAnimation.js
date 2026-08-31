@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export function useScrollAnimation() {
-  let ctx: gsap.Context
+  let ctx
 
   onMounted(() => {
     // Respect prefers-reduced-motion

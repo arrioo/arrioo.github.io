@@ -1,28 +1,36 @@
 import axios from 'axios'
 
-// export default axios.create({
-//   baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api',
-// })
+// Set USE_API to true if you want to switch to a remote API domain later.
+// This can be set via Vite environment variable VITE_USE_API=true.
+const USE_API = import.meta.env.VITE_USE_API === 'true' || false
 
-// for temp using json file
+// Base URL for the remote API or fallback to local data folder
+const BASE_URL = USE_API
+  ? (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5173/api')
+  : '/data'
+
+const api = axios.create({
+  baseURL: BASE_URL,
+})
 
 const apiService = {
   async getProfile() {
-    const res = await axios.get('src/assets/data/profile.json')
-    return res.data.profile
+    const res = await api.get(USE_API ? 'profile' : 'profile.json')
+    return res.data
   },
   async getProjects() {
-    const res = await axios.get('src/assets/data/projects.json')
-    return res.data.projects
+    const res = await api.get(USE_API ? 'projects' : 'projects.json')
+    return res.data
   },
   async getExperience() {
-    const res = await axios.get('src/assets/data/experience.json')
-    return res.data.experience
+    const res = await api.get(USE_API ? 'experience' : 'experience.json')
+    return res.data
   },
   async getSkills() {
-    const res = await axios.get('src/assets/data/skills.json')
-    return res.data.skills
+    const res = await api.get(USE_API ? 'skills' : 'skills.json')
+    return res.data
   }
 }
 
 export default apiService
+

@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Languages & Frameworks",
+    "items": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Vue.js", "React.js", "Python", "Bootstrap"]
+  },
+  {
+    "category": "Databases & Infrastructure",
+    "items": ["MySQL", "PostgreSQL", "Oracle", "Cloudflare", "SSO", "VAPT Security", "CI/CD", "Git & GitHub/GitLab"]
+  },
+  {
+    "category": "Technical Expertise",
+    "items": ["REST API Development", "System Integration", "Database Optimization", "Single Sign-On (SSO)", "Web Security Enhancements"]
+  }
+]

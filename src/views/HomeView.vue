@@ -19,6 +19,7 @@ onMounted(async () => {
     useScrollAnimation()
   }, 100)
 })
+
 </script>
 
 <template>

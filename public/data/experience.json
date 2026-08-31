@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "company": "Jelajah Data Semesta (DKI Jakarta)",
+    "role": "Application Developer",
+    "period": "Jan 2026 — Present",
+    "description": "Transferred internally from PT Bali Towerindo Sentra Tbk following organizational restructuring. Continue to develop, maintain, and optimize enterprise web applications supporting PTJDS and affiliated business operations. Maintained and enhanced business-critical web applications, integrated REST APIs with Oracle, optimized query tuning/caching, implemented security improvements based on VAPT, managed Single Sign-On (SSO) with Cloudflare, and troubleshot production issues.",
+    "tech": ["PHP", "Laravel", "Oracle", "REST API", "Cloudflare", "SSO", "VAPT"]
+  },
+  {
+    "id": "2",
+    "company": "PT Bali Towerindo Sentra Tbk (DKI Jakarta)",
+    "role": "Application Developer",
+    "period": "Mar 2024 — Jan 2026",
+    "description": "Maintained, enhanced, and developed business-critical applications for Balitower, PT Bangun Kelola Swadaya (PTBKS), PT Paramitra Intimega (PTPIM), and PT Jelajah Data Semesta (PTJDS). Developed E-Submission platforms, built APIs for router management/mobile platforms, implemented Single Sign-On (SSO), and improved Sales applications with payment monitoring.",
+    "tech": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Python", "Vue.js", "MySQL", "PostgreSQL", "Bootstrap", "CI/CD", "Cloudflare"]
+  },
+  {
+    "id": "3",
+    "company": "PT Oktal Teknologi Indonesia (DI. Yogyakarta)",
+    "role": "Fullstack Developer",
+    "period": "Jul 2023 — Mar 2024",
+    "description": "Developed an e-commerce platform for digital products including eSIMs, SIM cards, top-ups, and tickets. Built product management, product variant, and POS modules. Integrated external APIs for automated product synchronization and third-party loan application features.",
+    "tech": ["PHP", "JavaScript", "Bootstrap", "REST API", "MySQL", "Git", "GitHub", "GitLab"]
+  },
+  {
+    "id": "4",
+    "company": "PT. Baracipta Esa Engineering (D.I Yogyakarta)",
+    "role": "Full Stack Developer (Intern)",
+    "period": "Aug 2022 — Dec 2022",
+    "description": "Collaborated as Product Manager to build Procurement Platform (tenderplus.id) to monitor tenders in LPSE Indonesia in real-time. Implemented UI and developed REST APIs for mobile applications.",
+    "tech": ["CodeIgniter", "PHP", "JavaScript", "REST API", "Git", "GitHub"]
+  },
+  {
+    "id": "5",
+    "company": "Yayasan Hasnur Centre (South Kalimantan)",
+    "role": "Programmer (Intern)",
+    "period": "Feb 2022 — Jul 2022",
+    "description": "Created a mentoring platform website (mentor.hasnurcentre.org) using Laravel. Created landing and room borrowing pages for Wet Land Square Banjarmasin. Built simple front-end with React.js.",
+    "tech": ["Laravel", "PHP", "React.js", "JavaScript", "HTML", "CSS"]
+  }
+]
