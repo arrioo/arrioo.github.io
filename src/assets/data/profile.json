@@ -1,0 +1,22 @@
+{
+  "name": "ARRIO",
+  "title": "Software Engineer / Full Stack Developer",
+  "headline": "I design and build digital products that solve real-world problems.",
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/arrioo/",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/arriosaputra/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "arrio071@gmail.com",
+      "icon": "email"
+    }
+  ]
+}
