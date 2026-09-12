@@ -6,7 +6,7 @@ const USE_API = import.meta.env.VITE_USE_API === 'true' || false
 
 // Base URL for the remote API or fallback to local data folder
 const BASE_URL = USE_API
-  ? (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5173/api')
+  ? import.meta.env.VITE_API_BASE_URL || 'http://localhost:5173/api'
   : '/data'
 
 const api = axios.create({
@@ -29,8 +29,7 @@ const apiService = {
   async getSkills() {
     const res = await api.get(USE_API ? 'skills' : 'skills.json')
     return res.data
-  }
+  },
 }
 
 export default apiService
-

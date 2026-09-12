@@ -1,22 +1,102 @@
 {
-  "name": "Arrio Saputra",
-  "title": "Software Engineer / Full Stack Developer",
-  "headline": "I design and build digital products that solve real-world problems.",
-  "social": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/arrioo/",
-      "icon": "github"
-    },
-    {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/arriosaputra/",
-      "icon": "linkedin"
-    },
-    {
-      "name": "Email",
-      "url": "arrio071@gmail.com",
-      "icon": "email"
-    }
-  ]
+  "status": "success",
+  "message": "Data fetched successfully",
+  "data": {
+    "name": "Arrio Saputra",
+    "title": "Application Developer • Full Stack Engineer",
+    "headline": "Engineering robust enterprise systems, secure REST APIs, and scalable digital products.",
+    "location": "Jakarta Pusat, DKI Jakarta, 10640",
+    "phone": "+6282348215923",
+    "email": "arrio071@gmail.com",
+    "about": "My name is Arrio Saputra, and I graduated with a Bachelor's degree in Informatics from Universitas Teknologi Digital Indonesia with a 3.85 GPA. I am passionate about software development, particularly web application development, system integration, database optimization, and application security.\n\nI have professional experience as a Full Stack Developer, developing and maintaining web-based applications from requirement analysis to deployment. During my career, I have worked on e-commerce platforms, procurement systems, mentoring platforms, and enterprise applications, collaborating with cross-functional teams to deliver scalable and efficient solutions.",
+    "highlights": [
+      {
+        "metric": "4+",
+        "label": "Years Experience",
+        "description": "Full-stack & enterprise web systems"
+      },
+      {
+        "metric": "3.85",
+        "label": "Informatics GPA",
+        "description": "Universitas Teknologi Digital Indonesia"
+      },
+      {
+        "metric": "5+",
+        "label": "Enterprise Platforms",
+        "description": "Shipped, maintained & optimized"
+      },
+      {
+        "metric": "VAPT",
+        "label": "Security Hardened",
+        "description": "OWASP, SQLi prevention, SSO & AD"
+      }
+    ],
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/arrioo",
+        "handle": "arrioo",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arriosaputra/",
+        "handle": "in/arriosaputra",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:arrio071@gmail.com",
+        "handle": "arrio071@gmail.com",
+        "icon": "email"
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/6282348215923",
+        "handle": "+62 823 4821 5923",
+        "icon": "phone"
+      }
+    ],
+    "education": [
+      {
+        "id": "utdi",
+        "institution": "Universitas Teknologi Digital Indonesia",
+        "period": "2019 — 2023",
+        "degree": "Bachelor of Computer Science in Informatics",
+        "faculty": "Faculty of Information Technology",
+        "gpa": "3.85",
+        "organization": "UKM WAMIKA (Wahana Aspirasi Mahasiswa Islam Kampus) UTDI",
+        "achievements": [
+          "Islamic study assistance programs, design for al-Kahf reminders post and conduct monthly studies as AN-NAJAH BUREAU administrator (2020–2021).",
+          "Promote Tabligh Akbar events and coordinate all committees as Tabligh Akbar PR COORDINATOR (2019–2020)."
+        ]
+      },
+      {
+        "id": "sman8",
+        "institution": "SMAN 8 Kota Ternate",
+        "period": "2016 — 2019",
+        "degree": "High School Diploma",
+        "faculty": "Science Major",
+        "gpa": null,
+        "organization": null,
+        "achievements": []
+      }
+    ],
+    "references": [
+      {
+        "name": "Mr. Arif Rahman",
+        "role": "HRD",
+        "company": "Yayasan Hasnur Centre",
+        "phone": "+6282148806208",
+        "url": "tel:+6282148806208"
+      },
+      {
+        "name": "Mr. Faiz In’amurrohman",
+        "role": "Technical Lead / PM",
+        "company": "PT. Baracipta Esa Engineering",
+        "phone": "+6285798278085",
+        "url": "tel:+6285798278085"
+      }
+    ]
+  }
 }

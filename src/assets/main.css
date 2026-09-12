@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --color-bg-primary: #F7F7F5;
+  --color-bg-primary: #f7f7f5;
   --color-text-primary: #111111;
-  --color-text-secondary: #6B6B6B;
-  --color-surface: #FFFFFF;
-  --color-border-subtle: #E7E7E4;
-  --color-accent: #635BFF;
-  --color-accent-soft: #EEECFF;
-  
-  --font-heading: "Geist", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --color-text-secondary: #5e5e5a;
+  --color-surface: #ffffff;
+  --color-border-subtle: #e6e6e2;
+  --color-border-hover: #d0d0cb;
+  --color-accent: #384e6f;
+  --color-accent-hover: #2b3d58;
+  --color-accent-soft: #e9edf2;
+  --color-accent-muted: #d5dfeb;
+
+  --font-heading: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   --radius-xl: 16px;
   --radius-2xl: 24px;
@@ -27,45 +30,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background-color: #384e6f;
+  color: #f7f7f5;
+}
+
 body {
   background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
+  overflow-x: hidden;
 }
 
 /* Custom Utilities based on CLAUDE.md */
 @layer utilities {
   .text-hero {
     font-family: var(--font-heading);
-    font-size: 44px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: 40px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  @media (min-width: 768px) {
+    .text-hero {
+      font-size: 64px;
+    }
   }
   @media (min-width: 1024px) {
     .text-hero {
-      font-size: 80px;
+      font-size: 82px;
     }
   }
 
   .text-section-heading {
     font-family: var(--font-heading);
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  @media (min-width: 768px) {
+    .text-section-heading {
+      font-size: 44px;
+    }
   }
   @media (min-width: 1024px) {
     .text-section-heading {
-      font-size: 56px;
+      font-size: 52px;
     }
   }
-  
+
   .text-subheading {
     font-family: var(--font-heading);
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.3;
+    letter-spacing: -0.01em;
   }
   @media (min-width: 1024px) {
     .text-subheading {
-      font-size: 32px;
+      font-size: 28px;
     }
   }
 }

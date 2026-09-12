@@ -1,14 +1,56 @@
-[
-  {
-    "category": "Languages & Frameworks",
-    "items": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Vue.js", "React.js", "Python", "Bootstrap"]
-  },
-  {
-    "category": "Databases & Infrastructure",
-    "items": ["MySQL", "PostgreSQL", "Oracle", "Cloudflare", "SSO", "VAPT Security", "CI/CD", "Git & GitHub/GitLab"]
-  },
-  {
-    "category": "Technical Expertise",
-    "items": ["REST API Development", "System Integration", "Database Optimization", "Single Sign-On (SSO)", "Web Security Enhancements"]
-  }
-]
+{
+  "status": "success",
+  "message": "Data fetched successfully",
+  "data": [
+    {
+      "category": "Backend & Architecture",
+      "summary": "Building resilient services, data workflows, and secure API boundaries.",
+      "items": [
+        "PHP",
+        "Laravel",
+        "CodeIgniter",
+        "Python",
+        "REST API Development",
+        "System Integration",
+        "Microservices Architecture"
+      ]
+    },
+    {
+      "category": "Frontend & UI Engineering",
+      "summary": "Crafting clean, responsive, and performance-focused digital interfaces.",
+      "items": [
+        "JavaScript (ES6+)",
+        "Vue.js",
+        "React.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "HTML5 / Modern CSS",
+        "Single-Page Applications (SPA)"
+      ]
+    },
+    {
+      "category": "Databases & Performance",
+      "summary": "Relational data modeling, query optimization, and high-load caching.",
+      "items": [
+        "Oracle Database",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Query Tuning & Indexing",
+        "Caching Strategies",
+        "Data Migration & ETL"
+      ]
+    },
+    {
+      "category": "Security, DevOps & Cloud",
+      "summary": "Securing production platforms, identity workflows, and delivery pipelines.",
+      "items": [
+        "VAPT Remediation",
+        "Single Sign-On (SSO)",
+        "Active Directory (AD) Integration",
+        "Cloudflare Security & CDN",
+        "CI/CD Pipelines",
+        "Git / GitHub / GitLab"
+      ]
+    }
+  ]
+}

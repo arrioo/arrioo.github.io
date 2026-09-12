@@ -1,42 +1,54 @@
-[
-  {
-    "id": "1",
-    "title": "Tender Plus",
-    "description": "A real-time procurement platform designed to monitor tenders across LPSE Indonesia in real-time.",
-    "role": "Full Stack Developer (Intern)",
-    "year": "2022",
-    "tech": ["CodeIgniter", "PHP", "JavaScript", "REST API", "MySQL", "Git"],
-    "link": "https://tenderplus.id/",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    "id": "2",
-    "title": "HAFECS Mentoring Platform",
-    "description": "A mentoring platform web application developed to monitor and record mentoring activities systematically.",
-    "role": "Programmer (Intern)",
-    "year": "2022",
-    "tech": ["Laravel", "PHP", "React.js", "JavaScript", "MySQL", "Bootstrap"],
-    "link": "https://mentor.hasnurcentre.org",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    "id": "3",
-    "title": "E-Commerce for Digital Products",
-    "description": "A digital commerce system supporting purchase of eSIMs, SIM cards, top-ups, and ticketing services, featuring POS and inventory modules.",
-    "role": "Fullstack Developer",
-    "year": "2023",
-    "tech": ["PHP", "JavaScript", "Bootstrap", "MySQL", "REST API", "GitLab"],
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    "id": "4",
-    "title": "E-Submission & Document Approval",
-    "description": "An automated approval and document workflow platform for vendors, integrated with Oracle database systems.",
-    "role": "Application Developer",
-    "year": "2024",
-    "tech": ["PHP", "Laravel", "Oracle", "JavaScript", "REST API", "Cloudflare"],
-    "link": "#",
-    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80"
-  }
-]
+{
+  "status": "success",
+  "message": "Data fetched successfully",
+  "data": [
+    {
+      "id": "1",
+      "title": "Tender Plus Procurement Platform",
+      "category": "GovTech & Procurement",
+      "description": "A real-time procurement platform engineered to monitor, analyze, and aggregate tenders across LPSE Indonesia in real time, featuring comprehensive REST APIs for mobile applications.",
+      "role": "Product Manager & Full Stack Developer",
+      "year": "2022",
+      "featured": true,
+      "tech": ["CodeIgniter", "PHP", "JavaScript", "REST API", "MySQL", "Git"],
+      "link": "https://tenderplus.id/",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "2",
+      "title": "HAFECS Mentoring Platform",
+      "category": "EdTech & Foundation",
+      "description": "An enterprise web system built for Yayasan Hasnur Centre to record, evaluate, and monitor mentoring sessions and developmental roadmaps systematically across multiple programs.",
+      "role": "Programmer (MSIB Intern)",
+      "year": "2022",
+      "featured": true,
+      "tech": ["Laravel", "PHP", "React.js", "JavaScript", "MySQL", "Bootstrap"],
+      "link": "https://mentor.hasnurcentre.org",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "3",
+      "title": "Digital Products E-Commerce & POS",
+      "category": "FinTech & E-Commerce",
+      "description": "A digital commerce system supporting instant purchase and activation of eSIMs, physical SIMs, digital credit top-ups, and ticketing, with built-in POS and third-party financing APIs.",
+      "role": "Fullstack Developer",
+      "year": "2023",
+      "featured": true,
+      "tech": ["PHP", "JavaScript", "Bootstrap", "MySQL", "REST API", "GitLab"],
+      "link": "#",
+      "image": "https://images.unsplash.com/photo-1556742049-0a67e5572293?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "4",
+      "title": "Enterprise E-Submission & Approval System",
+      "category": "Enterprise Systems",
+      "description": "Business-critical approval workflows and vendor document lifecycle system integrated with Oracle ERP, Single Sign-On (SSO), and Cloudflare for Bali Towerindo and affiliated companies.",
+      "role": "Application Developer",
+      "year": "2024 — 2026",
+      "featured": true,
+      "tech": ["PHP", "Laravel", "Oracle", "Cloudflare SSO", "REST API", "VAPT"],
+      "link": "#",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
+    }
+  ]
+}
