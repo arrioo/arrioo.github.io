@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "message": "Data fetched successfully",
+  "data": [
+    {
+      "id": "1",
+      "company": "Jelajah Data Semesta",
+      "location": "DKI Jakarta",
+      "workplace": "Onsite",
+      "type": "Full-time",
+      "role": "Application Developer",
+      "period": "January 2026 — Present",
+      "summary": "Transferred internally from PT Bali Towerindo Sentra Tbk following organizational restructuring. Continue to develop, maintain, and optimize enterprise web applications supporting PTJDS and affiliated business operations.",
+      "bullets": [
+        "Maintain and enhance business-critical web applications and internal enterprise systems.",
+        "Design and develop new business features based on strategic business requirements.",
+        "Develop and integrate robust REST APIs with Oracle database systems and internal microservices.",
+        "Optimize database performance through query tuning, indexing, and caching implementation.",
+        "Implement application security improvements based on VAPT findings, including secure HTTP headers, input validation, SQL injection prevention, and authentication enhancements.",
+        "Manage Single Sign-On (SSO), Active Directory (AD) Integration, Cloudflare integration, centralized logging, and access management.",
+        "Troubleshoot production issues and ensure application stability, scalability, and 24/7 high availability."
+      ],
+      "tech": ["PHP", "Laravel", "Oracle", "REST API", "Cloudflare", "SSO", "Active Directory", "VAPT Security", "Query Tuning"]
+    },
+    {
+      "id": "2",
+      "company": "PT Bali Towerindo Sentra Tbk",
+      "location": "DKI Jakarta",
+      "workplace": "Onsite",
+      "type": "Full-time",
+      "role": "Application Developer",
+      "period": "March 2024 — January 2026",
+      "summary": "Maintained, enhanced, and developed business-critical applications for PT Bali Towerindo Sentra, PT Bangun Kelola Swadaya (PTBKS), PT Paramitra Intimega (PTPIM), and PT Jelajah Data Semesta (PTJDS). Collaborated with stakeholders and cross-functional teams to deliver scalable enterprise solutions.",
+      "bullets": [
+        "Developed and enhanced E-Submission platforms for vendor document management and automated approval workflows integrated with Oracle systems.",
+        "Maintained and optimized Intranet and MIS applications through bug fixing, query tuning, caching implementation, and feature enhancements.",
+        "Built and integrated APIs for internal and customer-facing applications, including router management and mobile platforms.",
+        "Developed Single Sign-On (SSO) solutions with Cloudflare integration, centralized logging, and role-based access management.",
+        "Improved Sales applications by implementing payment monitoring, API integrations, caching strategies, and database performance optimizations.",
+        "Strengthened application security by implementing VAPT recommendations, including secure HTTP headers, input validation, SQL injection prevention, and authentication improvements."
+      ],
+      "tech": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Python", "Vue.js", "Oracle", "MySQL", "PostgreSQL", "CI/CD", "Cloudflare", "Bootstrap"]
+    },
+    {
+      "id": "3",
+      "company": "PT Oktal Teknologi Indonesia",
+      "location": "D.I. Yogyakarta",
+      "workplace": "Onsite",
+      "type": "Full-time",
+      "role": "Fullstack Developer",
+      "period": "July 2023 — March 2024",
+      "summary": "Built fullstack e-commerce platforms and retail modules for digital telecommunications products, automated third-party integrations, and financing features.",
+      "bullets": [
+        "Developed an e-commerce platform for digital products, including eSIMs, physical SIM cards, digital top-ups, and tickets.",
+        "Built product management, product variant, and Point of Sales (POS) modules using JavaScript and Bootstrap.",
+        "Integrated external APIs for automated product synchronization and catalog management.",
+        "Developed loan application features and integrated third-party APIs for financing services.",
+        "Created interactive reading features using JavaScript to enhance user engagement.",
+        "Collaborated with developers using GitHub and GitLab throughout the full software development lifecycle."
+      ],
+      "tech": ["PHP", "JavaScript", "Bootstrap", "REST API", "MySQL", "Git", "GitHub", "GitLab"]
+    },
+    {
+      "id": "4",
+      "company": "PT. Baracipta Esa Engineering",
+      "location": "D.I. Yogyakarta",
+      "workplace": "Onsite",
+      "type": "MSIB Intern",
+      "role": "Full Stack Developer (MSIB Intern)",
+      "period": "August 2022 — December 2022",
+      "summary": "Magang Bersertifikat Kampus Merdeka (MSIB). Collaborated with the product team as Product Manager & Developer to build the Tender Plus procurement monitoring platform for national LPSE tenders.",
+      "bullets": [
+        "Collaborated with the team as Product Manager to build Procurement Platform tenderplus.id to monitor LPSE Indonesia tenders in real-time.",
+        "Implemented pixel-perfect user interfaces designed by the UI/UX team.",
+        "Engineered Tender Plus REST APIs consumed by mobile applications.",
+        "Managed version control using Git and GitHub, and deployed application source to production hosting (https://tenderplus.id/)."
+      ],
+      "tech": ["CodeIgniter", "PHP", "JavaScript", "REST API", "MySQL", "Git", "GitHub"]
+    },
+    {
+      "id": "5",
+      "company": "Yayasan Hasnur Centre",
+      "location": "South Kalimantan",
+      "workplace": "Onsite",
+      "type": "MSIB Intern",
+      "role": "Programmer - HAFECS (MSIB Intern)",
+      "period": "February 2022 — July 2022",
+      "summary": "Magang Bersertifikat Kampus Merdeka (MSIB). Built web systems for educational and community foundations under the HAFECS initiative.",
+      "bullets": [
+        "Developed the official mentoring platform website (https://mentor.hasnurcentre.org) using Laravel to systematically record mentoring activities.",
+        "Created public landing pages and room borrowing reservation portals for Wet Land Square Banjarmasin.",
+        "Built responsive front-end user interfaces using React.js and modern component architecture."
+      ],
+      "tech": ["Laravel", "PHP", "React.js", "JavaScript", "HTML5", "CSS3", "MySQL"]
+    }
+  ]
+}
