@@ -52,6 +52,23 @@ const { experience } = usePortfolio()
                   <span>&bull;</span>
                   <span>{{ item.workplace }}</span>
                 </div>
+
+                <!-- mutation -->
+                <div v-if="item.mutation" class="mt-6 pt-6 border-t border-[var(--color-border-subtle)]">
+                  <div class="text-xs font-mono text-[var(--color-text-secondary)] uppercase mb-3">
+                    Mutation
+                  </div>
+                  <h4 class="text-lg md:text-xl font-bold font-['Geist'] text-[var(--color-accent)] mb-1">
+                    {{ item.mutation.company }}
+                  </h4>
+                  <span class="text-sm text-[var(--color-text-secondary)] mb-4">
+                    {{ item.mutation.period }}
+                  </span>
+                  
+                  <p class="text-sm text-[var(--color-text-secondary)] mb-4">
+                    {{ item.mutation.reason }}
+                  </p>
+                </div>
               </div>
 
               <!-- Tech Stack Pills -->

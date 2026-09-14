@@ -32,7 +32,11 @@ const selectedProjects = computed(() => {
 
       <!-- Project Cards Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 scroll-stagger">
-        <ProjectCard v-for="project in selectedProjects" :key="project.id" :project="project" />
+        <ProjectCard
+          v-for="project in selectedProjects.slice().reverse()"
+          :key="project.id"
+          :project="project"
+        />
       </div>
     </div>
   </section>

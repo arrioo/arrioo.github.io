@@ -7,7 +7,7 @@ const { profile } = usePortfolio()
 const copied = ref(false)
 
 const copyEmail = async () => {
-  const email = profile.value?.email?.replace('mailto:', '') || 'arrio071@gmail.com'
+  const email = profile.value?.email?.replace('mailto:', '') || profile?.email
   try {
     await navigator.clipboard.writeText(email)
     copied.value = true
@@ -73,7 +73,7 @@ const copyEmail = async () => {
             <div
               class="text-lg font-bold font-['Geist'] text-[var(--color-text-primary)] break-all mb-2"
             >
-              arrio071@gmail.com
+              {{ profile?.email }}
             </div>
             <p class="text-xs text-[var(--color-text-secondary)]">
               Best for project scopes and full-time hiring discussions.
@@ -84,7 +84,7 @@ const copyEmail = async () => {
             class="mt-8 pt-4 border-t border-[var(--color-border-subtle)] flex items-center gap-3"
           >
             <a
-              href="mailto:arrio071@gmail.com"
+              href="mailto:{{ profile?.email }}"
               class="px-4 py-2 bg-[var(--color-accent)] text-white rounded-lg text-xs font-semibold hover:bg-[var(--color-accent-hover)] transition-colors inline-flex items-center gap-1.5"
             >
               <span>Send Email</span>
@@ -129,7 +129,7 @@ const copyEmail = async () => {
               Phone & WhatsApp
             </div>
             <div class="text-lg font-bold font-['Geist'] text-[var(--color-text-primary)] mb-2">
-              +62 823 4821 5923
+              {{ profile?.phone }}
             </div>
             <p class="text-xs text-[var(--color-text-secondary)]">
               Direct mobile contact and instant messaging.
@@ -140,7 +140,7 @@ const copyEmail = async () => {
             class="mt-8 pt-4 border-t border-[var(--color-border-subtle)] flex items-center gap-3"
           >
             <a
-              href="https://wa.me/6282348215923"
+              :href="`https://wa.me/${profile?.phone}`"
               target="_blank"
               rel="noopener noreferrer"
               class="px-4 py-2 bg-emerald-600 text-white rounded-lg text-xs font-semibold hover:bg-emerald-700 transition-colors inline-flex items-center gap-1.5"
@@ -149,7 +149,7 @@ const copyEmail = async () => {
               <span>↗</span>
             </a>
             <a
-              href="tel:+6282348215923"
+              :href="`tel:${profile?.phone}`"
               class="px-3.5 py-2 border border-[var(--color-border-subtle)] rounded-lg text-xs font-medium text-[var(--color-text-primary)] hover:bg-[var(--color-bg-primary)] transition-colors"
             >
               Call
@@ -177,7 +177,7 @@ const copyEmail = async () => {
               Profiles & Code
             </div>
             <div class="text-lg font-bold font-['Geist'] text-[var(--color-text-primary)] mb-2">
-              linkedin.com/in/arriosaputra
+              {{ profile?.social.find((s) => s.name === 'LinkedIn')?.url.replace('https://www.', '') }}
             </div>
             <p class="text-xs text-[var(--color-text-secondary)]">
               Professional history, recommendations, and open source repositories.
@@ -188,7 +188,7 @@ const copyEmail = async () => {
             class="mt-8 pt-4 border-t border-[var(--color-border-subtle)] flex items-center gap-3"
           >
             <a
-              href="https://www.linkedin.com/in/arriosaputra/"
+              :href="profile?.social.find((s) => s.name === 'LinkedIn')?.url"
               target="_blank"
               rel="noopener noreferrer"
               class="px-4 py-2 bg-[var(--color-text-primary)] text-white rounded-lg text-xs font-semibold hover:bg-black transition-colors inline-flex items-center gap-1.5"

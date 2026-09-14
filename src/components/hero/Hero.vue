@@ -40,7 +40,7 @@ onMounted(() => {
             <span
               class="block text-2xl md:text-3xl lg:text-4xl font-normal text-[var(--color-text-secondary)] mb-2 tracking-normal font-['Geist']"
             >
-              {{ profile?.name || 'Arrio Saputra' }}
+              {{ profile?.name || 'Arrio' }}
             </span>
             Engineering enterprise systems with speed & precision.
           </h1>
@@ -49,8 +49,8 @@ onMounted(() => {
           <p
             class="text-lg md:text-xl text-[var(--color-text-secondary)] max-w-2xl mb-10 leading-relaxed font-light"
           >
-            Full Stack & Application Developer specializing in web applications, Oracle
-            integrations, database tuning, and VAPT security hardening.
+            Full Stack & Application Developer specializing in web applications, database tuning,
+            VAPT security hardening, and Oracle integrations.
           </p>
 
           <!-- CTAs -->

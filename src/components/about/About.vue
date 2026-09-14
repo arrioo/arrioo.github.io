@@ -75,7 +75,7 @@ const { profile } = usePortfolio()
               My name is
               <strong class="font-semibold text-[var(--color-accent)]">Arrio Saputra</strong>, and I
               graduated with a Bachelor's degree in Informatics from Universitas Teknologi Digital
-              Indonesia (GPA 3.85). I am deeply passionate about software engineering, particularly
+              Indonesia. I am deeply passionate about software engineering, particularly
               web application development, system integration, database optimization, and
               application security.
             </p>
