@@ -176,8 +176,17 @@ const { profile } = usePortfolio()
                 <a
                   :href="refItem.url"
                   class="font-mono font-medium text-[var(--color-accent)] hover:underline"
+                >   
+                </a>
+
+                <a
+                  :href="'https://wa.me/' + refItem.phone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="px-4 py-2 bg-emerald-600 text-white rounded-lg text-xs font-semibold hover:bg-emerald-700 transition-colors inline-flex items-center gap-1.5"
                 >
-                  {{ refItem.phone }}
+                  <span>WhatsApp Chat</span>
+                  <span>↗</span>
                 </a>
               </div>
             </div>

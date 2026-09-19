@@ -128,8 +128,7 @@ const copyEmail = async () => {
             >
               Phone & WhatsApp
             </div>
-            <div class="text-lg font-bold font-['Geist'] text-[var(--color-text-primary)] mb-2">
-              {{ profile?.phone }}
+            <div class="text-lg font-bold font-['Geist'] text-[var(--color-text-primary)] mb-2"> 
             </div>
             <p class="text-xs text-[var(--color-text-secondary)]">
               Direct mobile contact and instant messaging.
