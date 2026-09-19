@@ -4,12 +4,32 @@
   "data": [
     {
       "id": "1",
+      "company": "PT Jelajah Data Semesta (PTJDS) — a subsidiary of PT Bali Towerindo Sentra Tbk",
+      "location": "DKI Jakarta",
+      "workplace": "Onsite",
+      "type": "Full-time",
+      "role": "Backend Developer",
+      "period": "January 2026 — Present",
+      "summary": "Transferred internally from PT Bali Towerindo Sentra Tbk following organizational restructuring. Continue to develop, maintain, and optimize enterprise web applications supporting PTJDS and affiliated business operations.",
+      "bullets": [
+        "Maintain and enhance business-critical web applications and internal enterprise systems.",
+        "Design and develop new business features based on strategic business requirements.",
+        "Develop and integrate robust REST APIs with Oracle database systems and internal microservices.",
+        "Optimize database performance through query tuning, indexing, and caching implementation.",
+        "Implement application security improvements based on VAPT findings, including secure HTTP headers, input validation, SQL injection prevention, and authentication enhancements.",
+        "Manage Single Sign-On (SSO), Active Directory (AD) Integration, Cloudflare integration, centralized logging, and access management.",
+        "Troubleshoot production issues and ensure application stability, scalability, and 24/7 high availability."
+      ],
+      "tech": ["PHP", "Laravel", "Oracle", "REST API", "Cloudflare", "SSO", "Active Directory", "VAPT Security", "Query Tuning"]
+    },
+    {
+      "id": "2",
       "company": "PT Bali Towerindo Sentra Tbk",
       "location": "DKI Jakarta",
       "workplace": "Onsite",
       "type": "Full-time",
       "role": "Application Developer",
-      "period": "March 2024 — Present",
+      "period": "March 2024 — January 2026",
       "summary": "Maintained, enhanced, and developed business-critical applications for PT Bali Towerindo Sentra, PT Bangun Kelola Swadaya (PTBKS), PT Paramitra Intimega (PTPIM), and PT Jelajah Data Semesta (PTJDS). Collaborated with stakeholders and cross-functional teams to deliver scalable enterprise solutions.",
       "bullets": [
         "Developed and enhanced E-Submission platforms for vendor document management and automated approval workflows integrated with Oracle systems.",
@@ -19,31 +39,10 @@
         "Improved Sales applications by implementing payment monitoring, API integrations, caching strategies, and database performance optimizations.",
         "Strengthened application security by implementing VAPT recommendations, including secure HTTP headers, input validation, SQL injection prevention, and authentication improvements."
       ],
-      "tech": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Python", "Vue.js", "Oracle", "MySQL", "PostgreSQL", "CI/CD", "Cloudflare", "Bootstrap"],
-      "mutation": {
-        "id": "1",
-        "company": "Jelajah Data Semesta",
-        "location": "DKI Jakarta",
-        "workplace": "Onsite",
-        "type": "Full-time",
-        "role": "Application Developer",
-        "period": "January 2026 — Present",
-        "summary": "Transferred internally from PT Bali Towerindo Sentra Tbk following organizational restructuring. Continue to develop, maintain, and optimize enterprise web applications supporting PTJDS and affiliated business operations.",
-        "bullets": [
-          "Maintain and enhance business-critical web applications and internal enterprise systems.",
-          "Design and develop new business features based on strategic business requirements.",
-          "Develop and integrate robust REST APIs with Oracle database systems and internal microservices.",
-          "Optimize database performance through query tuning, indexing, and caching implementation.",
-          "Implement application security improvements based on VAPT findings, including secure HTTP headers, input validation, SQL injection prevention, and authentication enhancements.",
-          "Manage Single Sign-On (SSO), Active Directory (AD) Integration, Cloudflare integration, centralized logging, and access management.",
-          "Troubleshoot production issues and ensure application stability, scalability, and 24/7 high availability."
-        ],
-        "tech": ["PHP", "Laravel", "Oracle", "REST API", "Cloudflare", "SSO", "Active Directory", "VAPT Security", "Query Tuning"],
-        "reason": "Transferred internally following organizational restructuring"
-      }
+      "tech": ["PHP", "Laravel", "CodeIgniter", "JavaScript", "Python", "Vue.js", "Oracle", "MySQL", "PostgreSQL", "CI/CD", "Cloudflare", "Bootstrap"]
     },
     {
-      "id": "2",
+      "id": "3",
       "company": "PT Oktal Teknologi Indonesia",
       "location": "D.I. Yogyakarta",
       "workplace": "Onsite",
@@ -62,7 +61,7 @@
       "tech": ["PHP", "JavaScript", "Bootstrap", "REST API", "MySQL", "Git", "GitHub", "GitLab"]
     },
     {
-      "id": "3",
+      "id": "4",
       "company": "PT. Baracipta Esa Engineering",
       "location": "D.I. Yogyakarta",
       "workplace": "Onsite",
@@ -79,7 +78,7 @@
       "tech": ["CodeIgniter", "PHP", "JavaScript", "REST API", "MySQL", "Git", "GitHub"]
     },
     {
-      "id": "4",
+      "id": "5",
       "company": "Yayasan Hasnur Centre",
       "location": "South Kalimantan",
       "workplace": "Onsite",
